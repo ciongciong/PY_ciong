@@ -25,5 +25,6 @@ ax=fig.add_subplot(111)#223将该图片放置在被分为2行2列的画布中的
 ax.scatter(datingDataMat[:,1],datingDataMat[:,2],marker='*',color='red')
 # ax.scatter(datingDataMat[:,1],datingDataMat[:,2],15.0*array(datingLabels),15.0*array(datingLabels))
 # ax.scatter(marker='o',color='black')
+# 测试上传github
 plt.show()
 

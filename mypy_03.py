@@ -22,8 +22,8 @@ import matplotlib
 import matplotlib.pyplot as plt
 fig=plt.figure()
 ax=fig.add_subplot(111)#223将该图片放置在被分为2行2列的画布中的从左到右从上到下的第3块区域
-# ax.scatter(datingDataMat[:,1],datingDataMat[:,2],marker='*',color='red')
-ax.scatter(datingDataMat[:,1],datingDataMat[:,2],15.0*array(datingLabels),15.0*array(datingLabels))
+ax.scatter(datingDataMat[:,1],datingDataMat[:,2],marker='*',color='red')
+# ax.scatter(datingDataMat[:,1],datingDataMat[:,2],15.0*array(datingLabels),15.0*array(datingLabels))
 # ax.scatter(marker='o',color='black')
 plt.show()
 
